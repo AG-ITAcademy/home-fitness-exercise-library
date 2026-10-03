@@ -6,7 +6,7 @@ Provided by Joy2Move, operated by SC GLOBAL PERSPECTIVE SRL. No Joy2Move account
 
 ## Status
 
-Development package. The Claude-specific endpoint must be deployed before installation works. Claude host playback and directory review are pending; do not interpret local tests as directory approval.
+The public Claude endpoint is live. Search and interactive exercise cards have been tested in Claude. Directory review is pending; this is not yet an approved directory listing.
 
 ## Test locally
 
@@ -25,7 +25,7 @@ Then ask:
 - Find bodyweight exercises for my core.
 - Show me a dead bug demonstration and its full workout.
 
-The tools are `search_exercises` and `get_exercise`. In supported graphical hosts, an interactive card can present the demonstration. Terminal clients can show timestamped YouTube links and links to the exercise page and full workout. Embedded playback is subject to host and YouTube restrictions; direct links remain available.
+The tools are `search_exercises` and `get_exercise`. Claude shows an interactive exercise card with equipment details and links to the demonstration, exercise page and full workout. Claude currently blocks nested YouTube players, so its demonstration opens on YouTube at the reviewed timestamp. The 15-second segment identifies the demonstration; external YouTube playback continues normally. Terminal clients show timestamped links. No browser security settings need to be changed.
 
 ## Content and limitations
 
