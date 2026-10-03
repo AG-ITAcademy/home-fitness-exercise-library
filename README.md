@@ -6,7 +6,7 @@ Provided by Joy2Move, operated by SC GLOBAL PERSPECTIVE SRL. No Joy2Move account
 
 ## Status
 
-The public Claude endpoint is live. Search and interactive exercise cards have been tested in Claude. Directory review is pending; this is not yet an approved directory listing.
+The public Claude endpoint is live. Search and interactive exercise cards have been tested in Claude. The Mux playback update requires deployment and a final test in Claude before submission. Directory review is pending; this is not yet an approved directory listing.
 
 ## Test locally
 
@@ -25,7 +25,7 @@ Then ask:
 - Find bodyweight exercises for my core.
 - Show me a dead bug demonstration and its full workout.
 
-The tools are `search_exercises` and `get_exercise`. Claude shows an interactive exercise card with equipment details and links to the demonstration, exercise page and full workout. Claude currently blocks nested YouTube players, so its demonstration opens on YouTube at the reviewed timestamp. The 15-second segment identifies the demonstration; external YouTube playback continues normally. Terminal clients show timestamped links. No browser security settings need to be changed.
+The tools are `search_exercises` and `get_exercise`. Claude shows an interactive exercise card with equipment details and links to the demonstration, exercise page and full workout. The Claude card uses Mux for inline playback at the reviewed timestamp and pauses after 15 seconds. A timestamped YouTube link remains as a fallback if inline playback is unavailable; external YouTube playback continues normally. ChatGPT continues to use its existing YouTube player. Terminal clients show timestamped links. No browser security settings need to be changed.
 
 ## Content and limitations
 
@@ -33,7 +33,7 @@ Each demonstration is 15 seconds. Stored timestamps already include a four-secon
 
 ## Data and support
 
-The remote service receives exercise searches, filters and slugs. It does not store searches in the Joy2Move database. YouTube is contacted when a user plays a demonstration. Website links use `utm_source=claude` without a user or conversation identifier. Hosting providers may process technical request data. See the [privacy policy](https://www.joy2move.net/privacy-policy) and [terms](https://www.joy2move.net/terms).
+The remote service receives exercise searches, filters and slugs. It does not store searches in the Joy2Move database. Mux is contacted when a user plays an inline demonstration in Claude. YouTube is contacted only when the user follows the YouTube fallback link. Website links use `utm_source=claude` without a user or conversation identifier. Hosting providers may process technical request data. See the [privacy policy](https://www.joy2move.net/privacy-policy) and [terms](https://www.joy2move.net/terms).
 
 Support: support@joy2move.net. Report the exercise name and issue, without credentials or medical records.
 
