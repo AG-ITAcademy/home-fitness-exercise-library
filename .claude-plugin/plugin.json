@@ -1,0 +1,16 @@
+{
+  "name": "home-fitness-exercise-library",
+  "displayName": "Home Fitness Exercise Library",
+  "version": "0.1.0",
+  "repository": "https://github.com/AG-ITAcademy/home-fitness-exercise-library",
+  "license": "MIT",
+  "description": "Find exercise demonstrations by name, equipment or muscle, with reviewed timestamps and links to full workouts.",
+  "author": { "name": "SC GLOBAL PERSPECTIVE SRL", "email": "support@joy2move.net", "url": "https://www.joy2move.net/exercises" },
+  "homepage": "https://www.joy2move.net/exercises",
+  "keywords": ["fitness", "exercise", "demonstrations", "home workouts"],
+  "icon": "./assets/icon.svg",
+  "documentationUrl": "https://www.joy2move.net/exercises",
+  "supportUrl": "https://www.joy2move.net/privacy-policy#exercise-library-support",
+  "privacyPolicyUrl": "https://www.joy2move.net/privacy-policy",
+  "termsOfServiceUrl": "https://www.joy2move.net/terms"
+}
