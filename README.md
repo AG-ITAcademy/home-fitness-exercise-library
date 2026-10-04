@@ -6,7 +6,7 @@ Provided by Joy2Move, operated by SC GLOBAL PERSPECTIVE SRL. No Joy2Move account
 
 ## Status
 
-The public Claude endpoint is live. Search and interactive exercise cards have been tested in Claude. The Mux playback update requires deployment and a final test in Claude before submission. Directory review is pending; this is not yet an approved directory listing.
+The public Claude endpoint is live. Search, interactive exercise cards and Mux playback have been tested in Claude. On 4 October 2026, a fresh bodyweight wall-sit card played at 1920×1080 from the reviewed timestamp and stopped after 15 seconds. Mobile playback has not yet been separately verified. Directory submission is being completed; this is not yet an approved directory listing.
 
 ## Test locally
 
