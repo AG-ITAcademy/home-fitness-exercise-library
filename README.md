@@ -25,7 +25,7 @@ Then ask:
 - Find bodyweight exercises for my core.
 - Show me a dead bug demonstration and its full workout.
 
-The tools are `search_exercises` and `get_exercise`. Claude shows an interactive exercise card with equipment details and links to the demonstration, exercise page and full workout. The Claude card uses Mux for inline playback at the reviewed timestamp and pauses after 15 seconds. The Full workout on YouTube button opens the complete source video. There is no separate YouTube demonstration or fallback. ChatGPT continues to use its existing YouTube player. Terminal clients receive exercise-page and full-workout links. No browser security settings need to be changed.
+The tools are `search_exercises` and `get_exercise`. Claude shows an interactive exercise card with equipment details and links to the demonstration, exercise page and full workout. The Claude card uses Mux for inline playback at the reviewed timestamp and pauses after 15 seconds. The Full workout on YouTube button opens the complete source video. There is no separate YouTube demonstration or fallback. ChatGPT uses the same Mux-only preview and full-workout link. Terminal clients receive exercise-page and full-workout links. No browser security settings need to be changed.
 
 ## Content and limitations
 
