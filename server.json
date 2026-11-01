@@ -3,8 +3,21 @@
   "name": "io.github.AG-ITAcademy/home-fitness-exercise-library",
   "title": "Joy2Move Home Exercise Library",
   "description": "Find home exercises, equipment variations and reviewed 15-second video demonstrations.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://www.joy2move.net/exercises",
+  "repository": {
+    "url": "https://github.com/AG-ITAcademy/home-fitness-exercise-library",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/AG-ITAcademy/home-fitness-exercise-library/main/assets/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
