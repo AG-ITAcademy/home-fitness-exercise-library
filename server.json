@@ -3,7 +3,7 @@
   "name": "io.github.AG-ITAcademy/home-fitness-exercise-library",
   "title": "Joy2Move Home Exercise Library",
   "description": "Find home exercises, equipment variations and reviewed 15-second video demonstrations.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://www.joy2move.net/exercises",
   "repository": {
     "url": "https://github.com/AG-ITAcademy/home-fitness-exercise-library",
@@ -11,10 +11,10 @@
   },
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/AG-ITAcademy/home-fitness-exercise-library/main/assets/icon.svg",
-      "mimeType": "image/svg+xml",
+      "src": "https://www.joy2move.net/icons/icon-192.png",
+      "mimeType": "image/png",
       "sizes": [
-        "any"
+        "192x192"
       ]
     }
   ],
